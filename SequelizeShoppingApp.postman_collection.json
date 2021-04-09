@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "7e116c16-be67-4535-8b6a-187c0c28e59d",
+		"name": "SequelizeShoppingApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:2678/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2678/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2678",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2678/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Nipun",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:2678/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2678",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2678/api/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2678/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2678",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
